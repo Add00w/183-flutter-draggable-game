@@ -119,7 +119,7 @@ class Emoji extends StatelessWidget {
       color: Colors.transparent,
       child: Container(
         alignment: Alignment.center,
-        height: 50,
+        height: MediaQuery.of(context).size.height * 0.1,
         padding: EdgeInsets.all(10),
         child: Text(
           emoji,
